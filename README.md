@@ -1,5 +1,6 @@
 # expt10
 
+"""
 app.py to use the Gemini API. The UI, caching and session state are unchanged.
 Updated procedure
 pip install streamlit google-genai
@@ -14,3 +15,4 @@ Settings: temperature, max tokens and the system prompt now go through types.Gen
 Output: the text comes from response.text.
 The model is set by MODEL_NAME = "gemini-2.5-flash" at the top of the file. If your key doesn't accept that name, change it to another Gemini model available in your AI Studio account.
 In your Aim and Tools sections, replace "LLM API" with "Google Gemini API (google-genai SDK)".
+"""
